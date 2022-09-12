@@ -1,0 +1,38 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <!-- <div class="wrapper"> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <!-- <p class="feed-subscribe">
+          <a href="{{ 'feed.xml' | relative_url }}">
+            <svg class="svg-icon orange">
+              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      {%- if site.author %}
+        <ul class="contact-list">
+          {% if site.author.name -%}
+            <li class="p-name">{{ site.author.name | escape }}</li>
+          {% endif -%}
+          {% if site.author.email -%}
+            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+          {%- endif %}
+        </ul>
+      {%- endif %} -->
+      <div class="social-links">
+        {%- include social.html -%}
+      </div>
+    </div>
+      <div class="footer-col footer-col-2">
+        <p>Ryan Keairns is a Product Designer with nearly 20 years of experience aiming to desin user interfaces that don't enrage fellow human beings. Mistakes have been made and things have been learned.</p>
+        <p>Currently focused on improving design operations at <a href="https://elastic.co">Elastic</a> as a UX Team Lead.</p>
+        <p>Working on a distribued team while based in Seattle, Washington.</p>
+      </div>
+    </div>
+
+  <!-- </div> -->
+
+</footer>

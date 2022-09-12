@@ -1,18 +1,8 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
-
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+<p>Ryan Keairns is a Product Designer working to improve the user experience (UX) of technical applications.</p>
+<p>Currently, he is a Design Team Lead who spends most of his time focused on DesignOps topics at Elastic. Up until this role, he spent much time conducting user reserach and occasionally writing frontend code (HTML, CSS, and Javascript) in order to assist in building the user interfaces (UI) he designs. Originally from the Midwest, now residing in Seattle, Washington.</p>
