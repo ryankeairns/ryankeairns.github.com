@@ -30,8 +30,9 @@ twitter_username: ryankeairns
 github_username: ryankeairns
 linkedin_username: ryan-keairns
 header_pages:
+  - index.markdown
   - about.markdown
-  - blog.markdown
+#- work.markdown
 
 # Build settings
 theme: minima

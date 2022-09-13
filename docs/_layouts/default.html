@@ -10,7 +10,7 @@
 
     <main class="page-content" aria-label="Content">
       {%- if page.title -%}
-        <h1 class="page-heading">{{ page.title }}</h1>
+        <h1 class="page-heading">{%- if page.title == "Home" -%}Ryan Keairns{%- else -%}{{page.title}}{%- endif -%}</h1>
       {%- endif -%}
       <!-- <div class="wrapper"> -->
         {{ content }}

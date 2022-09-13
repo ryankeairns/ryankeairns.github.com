@@ -205,7 +205,7 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit-xl;
   }
 }
 
@@ -269,6 +269,27 @@
     @include relative-font-size(1.0625);
   }
 }
+
+
+
+/**
+ * Tiles
+ */
+ .tiles {
+  background-color: wheat;
+  display: flex;
+  flex-direction: column;
+  
+  .tiles-row {
+    display: flex;
+
+    > a {
+      flex-grow: 1;
+      min-height: 240px;
+    }
+  }
+}
+
 
 
 .social-media-list {

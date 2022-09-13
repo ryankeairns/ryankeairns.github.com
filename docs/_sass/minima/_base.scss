@@ -166,7 +166,7 @@ p {
  pre,
  code {
    @include relative-font-size(0.8);
-   border: $spacing-unit-s solid lighten($brand-color, 72%);
+   border: $border-size solid lighten($brand-color, 72%);
    border-radius: $border-radius;
    background-color: lighten($brand-color, 80%);
  }
@@ -176,6 +176,7 @@ p {
  }
  
  pre {
+   margin-bottom: $spacing-unit-l;
    padding: $spacing-unit $spacing-unit-l;
    overflow-x: auto;
  
